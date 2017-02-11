@@ -22,9 +22,11 @@ requirements:
     - cython
     - pip
     - toolchain
+    - pari
   run:
     - python
     - cython
+    - pari
 
 test:
   imports:
