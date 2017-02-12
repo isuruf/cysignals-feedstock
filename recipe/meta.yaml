@@ -22,9 +22,11 @@ requirements:
     - cython
     - pip
     - toolchain
+    - pari
   run:
     - python
     - cython
+    - pari
 
 test:
   imports:
@@ -42,3 +44,4 @@ about:
 extra:
   recipe-maintainers:
     - dfroger
+    - isuruf
