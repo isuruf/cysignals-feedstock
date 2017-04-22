@@ -1,3 +1,3 @@
 make build
 make install
-make test
+make check
